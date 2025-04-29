@@ -1,0 +1,44 @@
+/* src/ConversationList.css */
+
+.conversation-list {
+  width: 200px;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.new-conversation-button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.new-conversation-button:hover {
+  background-color: #0056b3;
+}
+
+.conversation-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.conversation-item:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.conversation-title {
+  font-weight: bold;
+}
+
+.conversation-date {
+  font-size: 12px;
+  color: #888;
+}
